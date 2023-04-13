@@ -9,14 +9,17 @@
 </head>
 <body>
     <div class="container">
-        <div class="top-bar">
-            <ul>
-                <li><a href=#>Om oss</a></li>
-                <li><a href=#>Kattungar</a></li>
-                <li><a href=#>Katterna</a></li>
-                <li><a href=#>Kontakt</a></li>
-              </ul>
-        </div>
+        <!--Navigation bar-->
+<div id="nav-placeholder">
+
+</div>
+
+<script src="//code.jquery.com/jquery.min.js"></script>
+<script>
+$.get("topBar.html", function(data){
+    $("#nav-placeholder").replaceWith(data);
+});
+</script>
         
 
         <div class="huvud-bild"></div>
@@ -24,16 +27,13 @@
 
     <div class="info-ikoner">
         <div class="ikon1">
-            <img src="images/ikon1.png" alt="ikon1">
-            <h3>Titel</h3>
+            
         </div>
         <div class="ikon2">
-            <img src="images/ikon2.png" alt="ikon2">
-            <h3>Titel</h3>  
+             
         </div>
         <div class="ikon3">
-            <img src="images/ikon3.png" alt="ikon3">
-            <h3>Titel</h3>
+           
         </div>
     </div>
 
