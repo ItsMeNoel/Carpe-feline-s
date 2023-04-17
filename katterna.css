@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+:root {
+  --color-1: #E5E4CC;
+  --color-2: #BAC7A7;
+  --color-3: #889E81; 
+  --color-4: #698474;
+}
+
+.container{
+    display: flex;
+    width: auto;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.logo{
+    display: flex;
+    width: 40%;
+    height: 100%;
+}
