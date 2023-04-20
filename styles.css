@@ -82,17 +82,40 @@
 .container2{
     display: flex;
     width: auto;
-    height: 100vh;
+    height: 110vh;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
     background-color: var(--color-1);
+}
+
+.facebook{
+    display: flex;
+    height: auto;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.facebookText{
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+}
+
+#FBtitle{
+    display: flex;
+    font-size: 45px;
+    padding: 10px 0;
 }
 
 .nyheter{
     display: flex;
-    width: 75%;
-    height: 70%;
-    border-radius: 40px;
+    width: 500px;
+    height: 600px;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
     border: 5px solid var(--color-4);
     background-color: var(--color-3);
 }

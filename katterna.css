@@ -29,6 +29,13 @@
     display: flex;
     width: auto;
     height: 100vh;
-    background-color: lightgray;
+    background-color: var(--color-2);
     flex-direction: column;
+}
+
+.katter{
+    display: flex;
+    width: auto;
+    height: 500px;
+    background-color: var(--color-3);
 }
