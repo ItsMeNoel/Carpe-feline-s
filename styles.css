@@ -54,7 +54,10 @@
     display: flex;
     width: 33.3%;
     height: 100%;
-    background-color: var(--color-2);
+    background-image: url(./Images/iconmonstr-cat-8.svg);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
     border-right: black 2px solid;
     justify-content: center;
     align-items: flex-end;
@@ -64,7 +67,10 @@
     display: flex;
     width: 33.3%;
     height: 100%;
-    background-color: var(--color-2);
+    background-image: url(./Images/iconmonstr-cat-6.svg);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
     justify-content: center;
     align-items: flex-end;
 }
@@ -73,7 +79,10 @@
     display: flex;
     width: 33.3%;
     height: 100%;
-    background-color: var(--color-2);
+    background-image: url(./Images/costume.png);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
     border-left: black 2px solid;
     justify-content: center;
     align-items: flex-end;
