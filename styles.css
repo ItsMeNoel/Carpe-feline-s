@@ -48,7 +48,6 @@
     font-size: 14px;
     background-color: gainsboro;
     flex-direction: row;
-    cursor: pointer;
 }
 
 .ikon1{
@@ -79,6 +78,15 @@
     justify-content: center;
     align-items: flex-end;
 }
+
+a{
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    font-weight: 550;
+    font-size: 25px;
+}
+
 .container2{
     display: flex;
     width: auto;
