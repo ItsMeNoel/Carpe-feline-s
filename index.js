@@ -1,20 +1,20 @@
 const petsData = [
     {
-      name: "Purrsloud",
-      species: "Cat",
+      namn: "Yasurio",
+      födelseår: "temp",
       favFoods: ["wet food", "dry food", "<strong>any</strong> food"],
       birthYear: 2017,
-      photo: "https://learnwebcode.github.io/json-example/images/cat-2.jpg"
+      photo: "images/Yasuria.jpg"
     },
     {
-      name: "Barksalot",
-      species: "Dog",
+      namn: "Tori",
+      födelseår: "temp",
       birthYear: 2008,
-      photo: "https://learnwebcode.github.io/json-example/images/dog-1.jpg"
+      photo: "images/Tori2.jpg"
     },
     {
-      name: "Meowsalot",
-      species: "Cat",
+      namn: "Meowsalot",
+      födelseår: "Cat",
       favFoods: ["tuna", "catnip", "celery"],
       birthYear: 2012,
       photo: "https://learnwebcode.github.io/json-example/images/cat-1.jpg"
@@ -45,8 +45,8 @@ const petsData = [
     return `
     <div class="animal"> 
      <img class="pet-photo" src="${pet.photo}"> 
-     <h2 class="pet-name">${pet.name} 
-     <span class="species">(${pet.species})</span></h2>
+     <h2 class="pet-namn">${pet.namn} 
+     <span class="födelseår">(${pet.födelseår})</span></h2>
      <p><strong>Age:</strong> ${age(pet.birthYear)}</p>
       ${pet.favFoods ? foods(pet.favFoods) : ""}
     </div>
