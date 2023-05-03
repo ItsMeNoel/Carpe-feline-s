@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Carpe Feline's</title>
+</head>
+<body>
+    <div class="container">
+        <!--Navigation bar-->
+        <div id="nav-placeholder">
+
+        </div>
+        
+        <script src="//code.jquery.com/jquery.min.js"></script>
+        <script>
+        $.get("topBar.html", function(data){
+            $("#nav-placeholder").replaceWith(data);
+        });
+        </script>
+        
+
+        <div class="huvud-bild">
+            <h1 id="title">Carpe Feline's</h1>
+        </div>
+    </div>
+
+    <div class="info-ikoner">
+        <div class="ikon1">
+            <a href="#">Hälsa</a>
+        </div>
+        <div class="ikon2">
+            <a href="#">Rasen</a>
+        </div>
+        <div class="ikon3">
+            <a href="omOss.html">Om oss</a>
+        </div>
+    </div>
+
+    <div class="container2">
+        <div class="facebook">
+            <div class="facebookText">
+                <h1 id="FBtitle">Min facebook-sida</h1>
+                <p>lkjasdlkjasd fkasdfk lkasd lkasd lka sdfjkl asdflasdf askldf askljd fjlk asdjflkj sdlfjk aö sldkjf asdflöj ödfkljlkajsdf a sdlökj asdflk asd flksdf</p>
+            </div>
+            <div class="nyheter">
+                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&tabs=timeline&width=500&height=600&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500" height="600" style="border:none;overflow:hidden; border-radius: 20px;" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>            </div>
+            </div>
+</body>
+</html>
