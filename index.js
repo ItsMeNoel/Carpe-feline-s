@@ -13,12 +13,19 @@ const petsData = [
       photo: "images/Tori2.jpg"
     },
     {
-      namn: "Meowsalot",
-      födelseår: "Cat",
+      namn: "Zebrina",
+      födelseår: "temp",
       favFoods: ["tuna", "catnip", "celery"],
       birthYear: 2012,
-      photo: "https://learnwebcode.github.io/json-example/images/cat-1.jpg"
-    }
+      photo: "images/Zebrina.jpg"
+    },
+    {
+        namn: "Oscarii",
+        födelseår: "temp",
+        favFoods: ["tuna", "catnip", "celery"],
+        birthYear: 2012,
+        photo: "images/Oscarii.jpg"
+      },
   ];
   
   function age(birthYear) {
