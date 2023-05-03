@@ -54,7 +54,7 @@ const petsData = [
   }
   
   document.getElementById("app").innerHTML = `
-  <h1 class="app-title">Pets (${petsData.length} results) </h1>
+  <h1 class="app-title">Mina katter</h1>
   ${petsData.map(petTemplate).join("")}
   <p class="footer">These ${petsData.length} pets were added recently. Check back soon for updates</p>
   `;
