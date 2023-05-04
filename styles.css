@@ -130,6 +130,11 @@ a{
     text-decoration:underline;
 }
 
+.facebooksida{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .nyheter{
     display: flex;
     width: 500px;
