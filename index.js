@@ -2,7 +2,7 @@ const petsData = [
     {
       namn: "Yasurio",
       födelseår: "temp",
-      favFoods: ["wet food", "dry food", "<strong>any</strong> food"],
+      info: "jkasldö asldk jaölsdkf",
       birthYear: 2017,
       photo: "images/Yasuria.jpg"
     },
@@ -15,17 +15,18 @@ const petsData = [
     {
       namn: "Zebrina",
       födelseår: "temp",
-      favFoods: ["tuna", "catnip", "celery"],
+      info: ["tuna", "catnip", "celery"],
       birthYear: 2012,
       photo: "images/Zebrina.jpg"
     },
     {
         namn: "Oscarii",
         födelseår: "temp",
-        favFoods: ["tuna", "catnip", "celery"],
+        info: ["tuna", "catnip", "celery"],
         birthYear: 2012,
         photo: "images/Oscarii.jpg"
       },
+     
   ];
   
   function age(birthYear) {
@@ -55,7 +56,7 @@ const petsData = [
      <h2 class="pet-namn">${pet.namn} 
      <span class="födelseår">(${pet.födelseår})</span></h2>
      <p><strong>Age:</strong> ${age(pet.birthYear)}</p>
-      ${pet.favFoods ? foods(pet.favFoods) : ""}
+     ${pet.info}
     </div>
     `
   }
