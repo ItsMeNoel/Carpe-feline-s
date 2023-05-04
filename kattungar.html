@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>katterna</title>
+    <link rel="stylesheet" href="katterna.css"> 
+</head>
+<body>
+    
+    <div class="container">
+        <!-- Navigation bar -->
+        <div id="nav-placeholder">
+
+        </div>
+        
+          
+    </div> 
+    <div id="app"></div>
+
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script>
+    $.get("topBar.html", function(data){
+        $("#nav-placeholder").replaceWith(data);
+    });
+    </script>
+    <script src="index.js"></script>
+    
+    
+</body>
+</html>
