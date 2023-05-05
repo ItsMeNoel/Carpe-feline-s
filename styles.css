@@ -55,11 +55,12 @@
     display: flex;
     width: 33.3%;
     height: 100%;
-    background-image: url(./Images/iconmonstr-cat-8.svg);
+    background-image: url(./Images/Hälsa.jpg);
     background-position: center center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     border-right: black 2px solid;
+    color: rgb(55, 55, 55);
     justify-content: center;
     align-items: flex-end;
 }
@@ -68,9 +69,9 @@
     display: flex;
     width: 33.3%;
     height: 100%;
-    background-image: url(./Images/iconmonstr-cat-6.svg);
+    background-image: url(./Images/Rasen.jpg);
     background-position: center center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     justify-content: center;
     align-items: flex-end;
@@ -80,9 +81,9 @@
     display: flex;
     width: 33.3%;
     height: 100%;
-    background-image: url(./Images/costume.png);
+    background-image: url(./Images/om\ oss.jpg);
     background-position: center center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     border-left: black 2px solid;
     justify-content: center;
@@ -90,7 +91,8 @@
 }
 
 a{
-    color: white;
+    color: rgb(55, 55, 55);
+    font-weight: 600;
     text-align: center;
     padding: 5px 0;
     font-weight: 550;
