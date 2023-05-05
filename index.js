@@ -4,7 +4,7 @@ const petsData = [
       födelseår: "temp",
       info: "jkasldö asldk jaölsdkf",
       birthYear: 2017,
-      photo: url=("images/Yasuria.jpg")
+      photo: "https://github.com/ItsMeNoel/Carpe-feline-s/blob/main/Images/Yasuria.jpg"
     },
     {
       namn: "Tori",
