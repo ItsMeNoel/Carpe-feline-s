@@ -4,7 +4,7 @@ const petsData = [
       födelseår: "temp",
       info: "jkasldö asldk jaölsdkf",
       birthYear: 2017,
-      photo: Images/Yasuria.jpg
+      photo: "Images/Yasuria.jpg"
     },
     {
       namn: "Tori",
@@ -52,11 +52,11 @@ const petsData = [
   function petTemplate(pet) {
     return `
     <div class="animal"> 
-     <img class="pet-photo" src="${pet.photo}"> 
-     <h2 class="pet-namn">${pet.namn} 
-     <span class="födelseår">(${pet.födelseår})</span></h2>
-     <p><strong>Age:</strong> ${age(pet.birthYear)}</p>
-     ${pet.info}
+        <img class="pet-photo" src=${pet.photo}> 
+        <h2 class="pet-namn">${pet.namn} 
+        <span class="födelseår">(${pet.födelseår})</span></h2>
+        <p><strong>Age:</strong> ${age(pet.birthYear)}</p>
+        ${pet.info}
     </div>
     `
   }
