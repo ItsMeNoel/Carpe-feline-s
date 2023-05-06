@@ -14,7 +14,44 @@
 
         </div>
     </div> 
+    <div class="kontaktcontainer">
+        <div class="mapcontainer">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4045467.6274130284!2d13.82445606243051!3d60.324201770022576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465e2b2b77f33607%3A0x9c950f70819ba17d!2sVIKSTA-VALLBY%2086%2C%20743%2073%20Bj%C3%B6rklinge!5e0!3m2!1ssv!2sse!4v1683401119995!5m2!1ssv!2sse" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        
+        <div class="right-side">
+            <div class="info">
+                <ul class="kontakt">
+                    <li><span><strong>Adress: </strong>Susanne Johansson, Viksta-Vallby 86, SE-743 43 Björklinge</span></li>
+                    <li><span><strong>Tele: </strong>+46 (0)702778426</span></li>
+                    <li><span><strong>Email: </strong>carpefeline@hotmail.com</span></li>
+                </ul>
+            </div>
 
+            <div class="form">
+                <h1>Contact Form</h1>
+                <div id="form-container">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="text" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <button type="submit">Submit</button>
+                    </form>
+                    <div id="response-message"></div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    
     <script src="//code.jquery.com/jquery.min.js"></script>
         <script>
         $.get("topBar.html", function(data){

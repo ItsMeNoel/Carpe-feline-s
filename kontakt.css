@@ -1,7 +1,7 @@
 *{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    color: black;
+    
 }
 
 :root {
@@ -9,4 +9,100 @@
   --color-2: #BAC7A7;
   --color-3: #889E81; 
   --color-4: #698474;
+}
+
+.kontaktcontainer{
+  display: flex;
+  flex-direction: row;
+  background-color: var(--color-1);
+}
+
+.mapcontainer{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 50%;
+  height: 92vh;
+  border: #698474 5px solid;
+}
+
+.right-side{
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.kontakt{
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0 60px 0;
+  border: #889E81 3px solid;
+  border-radius: 10px;
+  background-color: var(--color-2);
+}
+
+.kontakt li{
+  border: #889E81 1px solid;
+  padding: 5px;
+}
+.kontakt li:first-child{
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+.kontakt li:last-child{
+  border-bottom: none;
+  border-right: none;
+  border-left: none;
+}
+.kontakt li:nth-child(2){
+  border-right: none;
+  border-left: none;
+}
+
+.form{
+  width: 400px;
+}
+
+.form h1{
+  font-size: 25px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid var(--color-3);
+  
+  background-color: var(--color-2);
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.success-message {
+  color: green;
+  font-weight: bold;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
 }
