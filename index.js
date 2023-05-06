@@ -52,7 +52,7 @@ const petsData = [
   function petTemplate(pet) {
     return `
     <div class="animal"> 
-        <img class="pet-photo" src=${pet.photo}> 
+        <img class="pet-photo" src="${pet.photo}"> 
         <h2 class="pet-namn">${pet.namn} 
         <span class="födelseår">(${pet.födelseår})</span></h2>
         <p><strong>Age:</strong> ${age(pet.birthYear)}</p>
