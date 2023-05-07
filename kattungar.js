@@ -1,31 +1,24 @@
 const petsData = [
     {
-      namn: "Yasurio",
+      namn: "Cionella",
       födelseår: "temp",
       info: "jkasldö asldk jaölsdkf",
       birthYear: 2017,
-      photo: "images/Yasuria.jpg"
+      photo: "images/Cionella1.jpg"
     },
     {
-      namn: "Tori",
+      namn: "Bizonia",
       födelseår: "temp",
       birthYear: 2008,
-      photo: "images/Tori2.jpg"
+      photo: "images/Bizonia.jpg"
     },
     {
-      namn: "Zebrina",
+      namn: "Asini",
       födelseår: "temp",
       info: ["tuna", "catnip", "celery"],
       birthYear: 2012,
-      photo: "images/Zebrina.jpg"
+      photo: "images/Asini.jpg"
     },
-    {
-        namn: "Oscarii",
-        födelseår: "temp",
-        info: ["tuna", "catnip", "celery"],
-        birthYear: 2012,
-        photo: "images/Oscarii.jpg"
-      },
      
   ];
   
@@ -52,7 +45,7 @@ const petsData = [
   function petTemplate(pet) {
     return `
     <div class="animal"> 
-     <img class="pet-photo" src="${pet.photo}"> 
+     <img class="pet-photo" src="${pet.photo}">
      <h2 class="pet-namn">${pet.namn} 
      <span class="födelseår">(${pet.födelseår})</span></h2>
      <p><strong>Age:</strong> ${age(pet.birthYear)}</p>
@@ -62,7 +55,7 @@ const petsData = [
   }
   
   document.getElementById("app").innerHTML = `
-  <h1 class="app-title">Mina katter</h1>
+  <h1 class="app-title">Mina Nuvarande kattungar</h1>
   ${petsData.map(petTemplate).join("")}
-  <p class="footer">These ${petsData.length} pets were added recently. Check back soon for updates</p>
+  <p class="footer">Denna listan kommer uppdateras varje gång jag får en ny kull med kattungar.</p>
   `;

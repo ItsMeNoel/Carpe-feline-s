@@ -15,6 +15,7 @@
   display: flex;
   flex-direction: row;
   background-color: var(--color-1);
+  height: 94vh;
 }
 
 .mapcontainer{
@@ -22,7 +23,7 @@
   justify-content: flex-start;
   align-items: flex-start;
   width: 50%;
-  height: 92vh;
+  height: auto;
   border: #698474 5px solid;
 }
 
@@ -36,7 +37,7 @@
 .kontakt{
   display: flex;
   flex-direction: column;
-  margin: 30px 0 60px 0;
+  margin: 30px 30px 60px 30px;
   border: #889E81 3px solid;
   border-radius: 10px;
   background-color: var(--color-2);
@@ -70,7 +71,7 @@
 }
 
 .form-group {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 label {
@@ -90,13 +91,16 @@ textarea {
 
 button[type="submit"] {
   padding: 10px 20px;
-  background-color: #4CAF50;
+  background-color: var(--color-3);
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 
+button[type="submit"]:hover{
+  background-color: var(--color-4);
+}
 .success-message {
   color: green;
   font-weight: bold;
@@ -106,3 +110,23 @@ button[type="submit"] {
   color: red;
   font-weight: bold;
 }
+
+@media (max-width: 920px){
+  .kontaktcontainer{
+    flex-direction: column;
+  }
+  .mapcontainer{
+    width: auto;
+    height: 800px;
+  }
+  .right-side{
+    width: auto;
+    height: auto;
+    margin: 0 20px 40px 20px;
+  }
+
+  .textarea{
+    margin: 0 20px 0 20px;
+  }
+}
+

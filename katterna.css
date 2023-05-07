@@ -38,13 +38,17 @@ img {
 }
 
 .app{
-    color: black;
+  
+  color: black;
 }
 
 .animal h4 {
   margin: 0 0 6px 0;
 }
 
+.info{
+  font-weight: 550;
+}
 .pet-photo {
   float: left;
   width: 40%;
@@ -78,3 +82,10 @@ img {
   text-align: center;
   margin: 0;
 }
+
+@media (max-width: 770px){
+  .animal{
+    margin: 30px 40px;
+  }
+}
+
