@@ -8,7 +8,7 @@ const petsData = [
     {
       namn: "Tori",
       födelseår: "Maj 2020",
-      info: "Tori ( Dagdrivarn Lias Vittoria) är en fd avelshona som fick en tarminvagination när hennes kull var knappt fem veckor gammal. Hon är svartsmoke och vit. Hon har blivit kastrerad pga att jag inte vill utsätta henne för en kull ungar till.",
+      info: "Tori (Dagdrivarn Lias Vittoria) är en fd avelshona som fick en tarminvagination när hennes kull var knappt fem veckor gammal. Hon är svartsmoke och vit. Hon har blivit kastrerad pga att jag inte vill utsätta henne för en kull ungar till.",
       photo: "Images/Tori2.jpg"
     },
     {

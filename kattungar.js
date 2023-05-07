@@ -4,20 +4,20 @@ const petsData = [
       födelseår: "temp",
       info: "jkasldö asldk jaölsdkf",
       birthYear: 2017,
-      photo: "images/Cionella1.jpg"
+      photo: "Images/Cionella1.jpg"
     },
     {
       namn: "Bizonia",
       födelseår: "temp",
       birthYear: 2008,
-      photo: "images/Bizonia.jpg"
+      photo: "Images/Bizonia.jpg"
     },
     {
       namn: "Asini",
       födelseår: "temp",
       info: ["tuna", "catnip", "celery"],
       birthYear: 2012,
-      photo: "images/Asini.jpg"
+      photo: "Images/Asini.jpg"
     },
      
   ];
