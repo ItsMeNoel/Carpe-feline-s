@@ -85,7 +85,6 @@ textarea {
   padding: 10px;
   border-radius: 5px;
   border: 2px solid var(--color-3);
-  
   background-color: var(--color-2);
 }
 
@@ -114,19 +113,20 @@ button[type="submit"]:hover{
 @media (max-width: 920px){
   .kontaktcontainer{
     flex-direction: column;
+    height: auto;
   }
   .mapcontainer{
     width: auto;
-    height: 800px;
+    height: 600px;
   }
   .right-side{
     width: auto;
-    height: auto;
     margin: 0 20px 40px 20px;
   }
 
   .textarea{
     margin: 0 20px 0 20px;
   }
+  
 }
 
