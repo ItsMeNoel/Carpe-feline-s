@@ -1,22 +1,20 @@
 const petsData = [
     {
       namn: "Cionella",
-      födelseår: "temp",
-      info: "jkasldö asldk jaölsdkf",
-      birthYear: 2017,
+      födelseår: "2023",
+      info: "Svartsmokesköldpadda med vitt. Kommer att flytta till fodervärd.",
       photo: "Images/Cionella1.jpg"
     },
     {
       namn: "Bizonia",
-      födelseår: "temp",
-      birthYear: 2008,
+      födelseår: "2023",
+      info: "Cremetabby med vitt. Vill gärna ha nya undersåtar.",
       photo: "Images/Bizonia.jpg"
     },
     {
       namn: "Asini",
-      födelseår: "temp",
-      info: ["tuna", "catnip", "celery"],
-      birthYear: 2012,
+      födelseår: "2023",
+      info: " Blåtabby med vitt. Kommer att flytta till Jenny.",
       photo: "Images/Asini.jpg"
     },
      
@@ -48,7 +46,6 @@ const petsData = [
      <img class="pet-photo" src="${pet.photo}">
      <h2 class="pet-namn">${pet.namn} 
      <span class="födelseår">(${pet.födelseår})</span></h2>
-     <p><strong>Age:</strong> ${age(pet.birthYear)}</p>
      ${pet.info}
     </div>
     `

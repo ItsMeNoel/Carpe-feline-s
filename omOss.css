@@ -23,7 +23,7 @@
     display: flex;
     width: 100%;
     height: 50%;
-    padding-top: 15px;
+    padding: 30px 0;
     flex-direction: column;
     background-color: var(--color-1);
     align-items: center;
@@ -34,7 +34,7 @@
     color: rgb(55, 55, 55);
 }
 .övreInfo p{
-    width: 900px;
+    width: 50%;
     padding-top: 15px;
 }
 
@@ -42,7 +42,7 @@
     display: flex;
     width: 100%;
     height: 50%;
-    padding-top: 15px;
+    padding: 30px 0;
     flex-direction: column;
     background-color: var(--color-2);
     align-items: center;
@@ -52,11 +52,29 @@
     color: rgb(55, 55, 55);
 }
 .undreInfo p{
-    width: 900px;
+    width: 50%;
     padding-top: 15px;
 }
 
 .undreInfo h2{
     color: rgb(55, 55, 55);
     font-size: 15px;
+}
+
+@media (max-width: 1600px){
+    .undreInfo{
+        height: 100%;
+    }
+    .övreInfo{
+        height: 100%;
+    }
+}
+
+@media (max-width: 800px){
+    .undreInfo{
+        height: auto;
+    }
+    .övreInfo{
+        height: auto;
+    }
 }

@@ -16,7 +16,6 @@
     width: auto;
     height: auto;
     flex-direction: column;
-    
 }
 
 .Info1{
@@ -70,50 +69,12 @@
     flex-direction: column;
     background-color: var(--color-1);
     align-items: center;
-    border-bottom: 3px var(--color-4) dashed;
     font-weight: 550;
 }
 .Info3 p, .Info3 h1{
     color: rgb(55, 55, 55);
 }
 .Info3 p{
-    width: 50%;
-    padding-top: 15px;
-}
-
-.Info4{
-    display: flex;
-    width: 100%;
-    height: auto;
-    padding: 15px 0px 40px 0px;
-    flex-direction: column;
-    background-color: var(--color-2);
-    align-items: center;
-    border-bottom: 3px var(--color-4) dashed;
-    font-weight: 550;
-}
-.Info4 p, .Info4 h1{
-    color: rgb(55, 55, 55);
-}
-.Info4 p{
-    width: 50%;
-    padding-top: 15px;
-}
-
-.Info5{
-    display: flex;
-    width: 100%;
-    height: auto;
-    padding: 15px 0px 40px 0px;
-    flex-direction: column;
-    background-color: var(--color-1);
-    align-items: center;
-    font-weight: 550;
-}
-.Info5 p, .Info5 h1{
-    color: rgb(55, 55, 55);
-}
-.Info5 p{
     width: 50%;
     padding-top: 15px;
 }
