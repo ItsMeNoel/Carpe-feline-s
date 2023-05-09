@@ -117,3 +117,9 @@
     width: 50%;
     padding-top: 15px;
 }
+
+@media (max-width:1050px){
+    .Info1 p, .Info2 p, .Info3 p, .Info4 p, .Info5 p{
+        width: 70%;
+    }
+}
