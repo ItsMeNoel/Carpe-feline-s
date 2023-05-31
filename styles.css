@@ -96,7 +96,7 @@ a{
     text-align: center;
     padding: 5px 0;
     font-weight: 550;
-    font-size: 25px;
+    font-size: 100%;
 }
 
 .container2{
@@ -127,7 +127,7 @@ a{
 }
 
 #FBtitle{
-    font-size: 45px;
+    font-size: 180%;
     padding: 10px 0;
     text-decoration:underline;
 }
@@ -137,10 +137,20 @@ a{
     flex-direction: column;
     align-items: center;
 }
-.nyheter{
+.nyheter-stor{
     display: flex;
     width: 500px;
     height: 610px;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid var(--color-4);
+    background-color: var(--color-3);
+}
+.nyheter-liten{
+    display: none;
+    width: 310px;
+    height: 410px;
     border-radius: 25px;
     justify-content: center;
     align-items: center;
@@ -156,6 +166,42 @@ a{
     }
     .facebookText{
         padding-bottom: 20px;
+        width: 70%;
+    }
+    .info-ikoner{
+        height: 30vh;
+    }
+    a{
+        font-size: 80%;
+    }
+    .huvud-bild{
+        background-position: right center;
     }
 }
 
+@media (max-width: 750px){
+    .huvud-bild{
+        display: none;
+    }
+    .container{
+        height: auto;
+    }
+}
+
+@media (max-width: 570px){
+    .nyheter-stor{
+        display: none;
+    }
+    .nyheter-liten{
+        display: flex;
+    }
+    .ps{
+        width: 80%;
+    }
+    .info-ikoner{
+        height: 20vh;
+    }
+    a{
+        font-size: 60%;
+    }
+}

@@ -51,7 +51,7 @@ const petsData = [
     <div class="animal"> 
         <img class="pet-photo" src="${pet.photo}"> 
         <h2 class="pet-namn">${pet.namn} 
-        <span class="födelseår">(${pet.födelseår})</span></h2>
+        <br><span class="födelseår">(${pet.födelseår})</span></br></h2>
         <p class="info">${pet.info}</p>
     </div>
     `
