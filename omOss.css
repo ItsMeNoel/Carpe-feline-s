@@ -78,3 +78,9 @@
         height: auto;
     }
 }
+
+@media (max-width:1050px){
+    .övreInfo p, .undreInfo p{
+        width: 70%;
+    }
+}
